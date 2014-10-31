@@ -1,0 +1,9 @@
+You need developing version alsa lib installed to compile 'tune'.
+In Ubuntu, use the following command to install them:
+
+# sudo apt-get install libasound2-dev libasound2-doc
+
+Use the following command to locate the help files:
+dpkg -L libasound2-doc
+
+In my laptop, the libasound2-doc is installed in '/usr/share/doc/libasound2-doc/html/index.html'. Browser it with your Chrome or Firefox.
